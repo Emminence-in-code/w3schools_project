@@ -1,0 +1,45 @@
+name: w3schools_project
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  webview_flutter: ^4.2.2
+  shared_preferences: ^2.2.3
+  introduction_screen: ^3.1.14
+  file_picker: ^5.3.1
+  path_provider: ^2.0.14
+  permission_handler: ^11.0.1
+  gap:
+  go_router: ^13.0.0
+  flutter_inappwebview:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.13.1"
+  flutter_native_splash: ^2.3.11
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: "assets/w3schools.svg.png"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/W3schools.svg.png"
+  min_sdk_android: 21
+  adaptive_icon_background: "#fff"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
